@@ -28,5 +28,5 @@ int numJeweIsInStones(String J,String S){
 </code>
 </pre>
 
-#解释
+### 解释
 'z'-'A'，z在ASCII码表中为122，A为65，即z-A表示了a-z A-Z的总长度。list[s-'A']++表示当前字符串减去最小的ASCII码并且加1，这样对应的数组位置就为1，例如a为97，减去A65，则有list[32]==1。得到对应位次，再用j相减，例子处j为aA,比如为a时，list[a-'A']=list[32],该位为1，则sum=sum+1。其余同！~
