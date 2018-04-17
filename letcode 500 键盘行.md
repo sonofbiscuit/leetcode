@@ -6,7 +6,7 @@
 <p><h4>示例1:</h4>
 	<pre>
 **输入**： ["Hello", "Alaska", "Dad", "Peace"]
-**输出**: ["Alaska", "Dad"]
+**输出**：["Alaska", "Dad"]
 	</pre>
 <p/>
 
