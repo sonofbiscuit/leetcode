@@ -76,3 +76,4 @@ class Solution {
 </pre>
 ### 解释
 遍历
+初始化支持 TreeNode（int x）这种方式，即 把x赋给val，left和right赋值NULL。
