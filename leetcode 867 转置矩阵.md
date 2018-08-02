@@ -27,8 +27,8 @@ class Solution {
         int W=A.length;
         int N=A[0].length;
         int C[][]=new int[N][W];
-        for(int i=0;i<A.length;i++){
-            for(int j=0;j<A[i].length;j++){
+        for(int i=0;i&lt;A.length;i++){
+            for(int j=0;j&lt;A[i].length;j++){
                 C[j][i]=A[i][j];
             }
         }
